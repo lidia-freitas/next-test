@@ -1,0 +1,72 @@
+@import "../placeholders";
+@import "../functions";
+@import "../variables";
+
+.itemContainer {
+  padding: spacing(2, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.photo {
+  flex-grow: 4;
+
+  img {
+    width: 100%;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: spacing(4);
+
+  .smallText {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: spacing(2);
+  }
+
+  .title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: spacing(4);
+  }
+
+  .price {
+    font-size: 46px;
+    margin-top: 0;
+    margin-bottom: spacing(4);
+  }
+
+  .buyButton {
+    height: spacing(5);
+    border: none;
+    color: #ffffff;
+    background-color: $action_color;;
+    margin-right: spacing(4);
+    border-radius: $small_radius;
+  }
+}
+
+.description {
+
+  .descriptionTitle {
+    font-size: 28px;
+    margin-right: spacing(4);
+
+  }
+
+  .descriptionText {
+    font-size: 16px;
+    margin-right: spacing(4);
+
+  }
+}
+
+

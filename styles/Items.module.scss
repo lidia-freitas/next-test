@@ -1,0 +1,10 @@
+@import "placeholders";
+@import "functions";
+@import "variables";
+
+.itemsContainer{
+  background-color: #fff;
+  padding: spacing(0, 2);
+  border-radius: $small_radius;
+  margin-bottom: spacing(8);
+}

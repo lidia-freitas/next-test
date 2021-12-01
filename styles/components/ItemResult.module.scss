@@ -1,0 +1,56 @@
+@import "../placeholders";
+@import "../functions";
+@import "../variables";
+
+.itemResultContainer {
+  width: 100%;
+  margin: spacing(0, 2);
+  padding: spacing(2, 0);
+  border-bottom: 1px solid $light_gray_2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  border-radius: $default_radius;
+  overflow: hidden;
+  margin-right: spacing(2);
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+;
+}
+
+.details {
+  padding: spacing(2, 0);
+
+  .price {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: spacing(4);
+  }
+
+  .isFreeShipping {
+    display: inline-block;
+    margin-left: spacing(1);
+  }
+
+  .title {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .condition{
+    font-size: 16px;
+    color: $dark_grey_2;
+    margin: 0;
+  }
+}
+
+.location {
+  font-size: 12px;
+}
+
+

@@ -1,0 +1,39 @@
+@import "../placeholders";
+@import "../variables";
+@import "../functions";
+
+.searchBarWrapper {
+  background-color: $brand_color;
+  height: spacing(6);
+  margin-bottom: spacing(2);
+}
+
+.input {
+  width: 100%;
+  padding: 0 spacing(1);
+  font-size: 18px;
+  height: spacing(4);
+  color: $light_gray_1;
+  border: none;
+  border-top-left-radius: $small_radius;
+  border-bottom-left-radius: $small_radius;
+}
+
+.button {
+  position: absolute;
+  right: 13px;
+  top: 0;
+  width: spacing(5);
+  height: spacing(4);
+  padding: 10px;
+  border: none;
+  background-image: url("/assets/ic_Search@2x.png.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: $light_gray_2;
+  background-size: spacing(2);
+  border-top-right-radius: $small_radius;
+  border-bottom-right-radius: $small_radius;
+}
+
+

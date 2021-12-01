@@ -1,0 +1,17 @@
+@function spacing($n1, $n2:null, $n3:null, $n4:null) {
+  $base: 8;
+
+  @if $n1 and $n2 and $n3  and $n4 {
+    @return ($n1 * $base) + px ($n2 * $base) + px ($n3 * $base) + px (n4 * $base) + px;
+  }
+
+  @if $n1 and $n2 and $n3  {
+    @return ($n1 * $base) + px ($n2 * $base) + px ($n3 * $base) + px;
+  }
+
+  @if $n1 and $n2  {
+    @return ($n1 * $base) + px ($n2 * $base) + px;
+  }
+
+  @return ($n1 * $base) + px;
+}
